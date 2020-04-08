@@ -1,5 +1,5 @@
 
-nt = (function () {
+var $dlgfont = (function () {
   var $dlg = $(
     '' +
         '<div  id="font" class="font">' +
