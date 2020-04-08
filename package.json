@@ -1,0 +1,31 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "任务(五)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavin2017011949/note.git"
+  },
+  "keywords": [],
+  "author": "suntong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavin2017011949/note/issues"
+  },
+  "homepage": "https://github.com/gavin2017011949/note#readme",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-usemin": "^3.1.1"
+  }
+}
