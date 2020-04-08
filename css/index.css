@@ -1,0 +1,203 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.area{
+    width: 100%;
+}
+.area textarea{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    resize: none;
+    overflow: scroll;
+    font-size: 15px;
+}
+.menu{
+    cursor: pointer;
+}
+.menu-title{
+    float: left;
+    width: 100%;
+    list-style: none;
+    border-bottom: 1.5px solid #f0f0f0;
+    padding: 0;
+    margin: 0;
+}
+.menu-title li{
+    float: left;
+}
+.menu-title-items{
+    float: left;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+.menu-title-items:hover{
+    color: #000;
+    background-color: #cce8ff;
+}
+.menu-items{
+    list-style: none;
+    margin: 0;
+    padding: 5px 5px;
+    position: absolute;
+    top: 25px;
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    background-color: #f2f2f2; 
+    box-shadow: 3px 3px 3px #ababab;
+    display: none;
+}
+.menu-items-items{
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.menu-items-items:hover{
+    background-color: #91c9f7;
+}
+.menu-items-items-hr{
+    color:#ccc;
+    height: 5px;
+    line-height: 5px;
+}
+.textarea{
+    outline:none;
+    border:0px;
+}
+.font{
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+.font-dlgbox{
+    position: relative;
+    top: 40px;
+    width: 400px;
+    height: 390px;
+    margin: 0 auto;
+    font-size: 12px;
+    border: 1px solid rgb(90, 53, 4);
+    background-color: #f2f2f2;
+}
+.font-dlgtitle{
+    width: 380px;
+    height: 20px;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+}
+.title{
+    float: left;
+    margin: 0;
+}
+.close-btn{
+    float: right;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.fonttitle-closebtn:hover{
+    background-color: #fff;
+    color: rgb(90, 53, 4);
+}
+.font-dlgmain{
+    width: 370px;
+    padding: 10px 15px;
+    float: left;
+    
+}
+.font-dlgmain div{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.font-dlgmain p{
+    margin: 0;
+}
+.fontmain-family{
+    width: 150px;
+    height: 150px;
+}
+.fontmain-style{
+    width: 100px;
+    height: 150px;
+}
+.fontmain-size{
+    width: 70px;
+    height: 150px;
+}
+.sample{
+    height: 50px;
+}
+.script{
+    height: 30px;
+    margin-top: 15px;
+}
+.script span{
+    float: left;
+    margin-left: 5px;
+}
+.script select{
+    width: 150px;
+    height: 20px;
+    font-size: 13px;
+    margin-left: 10px;
+    float: left;
+}
+.fontmain-box{    
+    width: 95%;
+    height: 130px;
+}
+.fontmain-list-title{
+    width: 96%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid;
+    border-bottom: 0;
+    font-size: 12px;
+    padding:2%;
+}
+.fontmain-list{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    height: 110px;
+    overflow-y: scroll;
+    background: #fff;
+    border: 1px solid;
+    width: 100%;
+}
+.fontmain-list-item{
+    font-size: 12px;
+}
+.fontmain-list-item.use{
+    background-color: rgb(46, 106, 196);
+    color: #fff;
+}
+.fontB{
+    width: 370px;
+    height: 30px;
+    text-align: right;
+    padding: 5px 15px;
+    float: left;
+}
+.fontB input{
+    width: 60px;
+    margin-left: 15px;
+    background-color: #f2f2f2;
+    border:1px solid rgb(100, 98, 98);
+    box-shadow: 1px 1px 1px 1px#ccc;
+    color: #000;
+    height: 25px;
+}
+.fontB input:hover{
+    background-color: #fff;
+    color: rgb(90, 53, 4);
+}
